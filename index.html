@@ -14,11 +14,19 @@
                 <img src="imagens/fundo.png" alt="Calculadora">
                 <form action="" class="formulario">
                     <label >Digite seu peso em kg:</label>
-                    <input type="number" id="massa">
+                    <input type="number" id="massaUsuario">
                     <label>Digite sua altura em m:</label>
-                    <input type="number" id="altura">
-                    <label id="resultado">resultado</label>
+                    <input type="number" id="alturaUsuario">
+                    <button id="botaoCalcular" type="button">Calcular</button>
                 </form>
+            </span>
+        </div>
+        <div id="exibeCalculos" hidden="true">
+            <span class="Resultado">
+                <h2>IMC:</h2>
+                <h3 id="exibeIMC"></h3>
+                <h2>Situação</h2>
+                <h3 id="exibeSituacao"></h3>
             </span>
         </div>
     </main>
