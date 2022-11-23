@@ -4,10 +4,10 @@ body{
 
 .Calculadora {
     margin: 0px auto;
-    margin-top: 150px;
+    margin-top: 230px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 #botaoCalcular{
@@ -20,11 +20,15 @@ body{
 }
 
 #exibeCalculos{
+    display: flex;
+    color: #090282;
+    font-size:large;
+    align-items: center;
 
 }
 
 img{
-    width: 750px;
+    width: 650px;
     height: 500px;
 }
 
@@ -34,11 +38,15 @@ form{
     align-items:center ;
     justify-content: space-between;
     font-size: xx-large;
-    color:#4d4f70;
+    color: #090282;
 }
 
 input{
-    width: 50px;
-    height: 30px;
+    width: 90px;
+    height: 20px;
     border: solid 5px #fbeed3;
+}
+
+::placeholder{
+    color: #090282;
 }
